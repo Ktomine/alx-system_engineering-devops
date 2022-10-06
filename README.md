@@ -1,1 +1,1 @@
-This repository contains solutions to the shell tasks
+These are the solutions to shell permissions
