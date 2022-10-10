@@ -1,2 +1,2 @@
 #!/bin/bash 
-cut -d ':' -fl, 6 /etc/passwd | sort
+echo -e '#!/bin/bash\ncut -f 1,6 -d ':' /etc/passwd | sort' > 22-users_and_homes
